@@ -1,0 +1,59 @@
+
+*{margin:initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+ .headercont{
+    background-color: antiquewhite;
+    text-align: center;
+    width:auto;
+    padding: 30px;
+    contain: paint;}
+.gamecontainer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    background-color: lightgreen;
+}
+.resualt{ 
+ padding: 20px 10px;}.resualt h2 {
+    color: red;
+    text-align: center;
+    margin: 7px;
+}
+.procces,.resualt{width:40%; background-color: aquamarine ; border:3px solid blue; 
+ border-radius: 10px; box-shadow: 0 0 15px; }
+  .procces{padding:30px 20px;}
+ .names {
+    display: flex;
+    justify-content: space-around;
+     
+}
+.numbers {
+    display: flex;
+    justify-content:space-around;
+}.imagehol{display: flex; flex-direction: row; justify-content: center; }
+.pics,.cpuimg{object-fit: contain;
+width: 33%;
+height:fit-content;}
+ .pics:hover{
+    filter: drop-shadow(0 0 15px greenyellow);
+ }
+ button#refbut {
+    color: white;
+    background-color: coral;
+    border: 3px solid bisque;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    margin-top: 10px;
+}
+.cpuselected{
+    background-color: rgb(251, 255, 38);
+    width: 100%;
+    height:150px ;
+    text-align: center;
+    border-radius: 10px;
+ }
+ .hidden{
+ display:none;
+ }
